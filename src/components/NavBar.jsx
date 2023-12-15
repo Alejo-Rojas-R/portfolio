@@ -19,7 +19,7 @@ export const NavBar = () => {
     }, []);
 
     return (
-        <nav className={`transition ease-in-out w-full px-5 fixed top-0 z-50 ${scrolling ? 'bg-black py-4' : 'py-4'}`}>
+        <nav className={`transition ease-in-out w-full px-5 fixed top-0 z-50 ${scrolling ? 'bg-zinc-700 py-4' : 'py-4'}`}>
             <div className='max-w-[1040px] flex justify-between m-auto'>
                 <h1 className='text-xl font-burtons text-white'>🜇</h1>
                 <ul className='sm:visible invisible flex items-center gap-6'>
