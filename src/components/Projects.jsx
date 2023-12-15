@@ -1,5 +1,5 @@
-import EShop from '../../public/e-shop.png';
-import Game from '../../public/matching-game.png';
+import EShop from '../../public/e-shop.webp';
+import Game from '../../public/matching-game.webp';
 import { ProjectCard } from './ProjectCard';
 
 export const Projects = () => {

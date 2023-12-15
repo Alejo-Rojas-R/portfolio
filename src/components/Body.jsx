@@ -2,13 +2,13 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { Projects } from './Projects';
 import { Skills } from './Skills';
 import { Checkmark } from './Checkmark';
-import Pfp from '../../public/profile-pic.jpg';
+import Pfp from '../../public/profile-pic.webp';
 
 export const Body = () => {
 
     return (
         <>
-            <div className='bg-[url(/banner.png)] bg-cover bg-center w-full max-w-[1920px] m-auto'>
+            <div className='bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto'>
                 <div id='about' className='pt-40 pb-10 px-10 mx-auto w-full max-w-[1040px]'>
                     <div className='flex flex-col'>
                         <div className=''>

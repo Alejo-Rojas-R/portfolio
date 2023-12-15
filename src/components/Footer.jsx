@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Footer = () => {
     return (
         <div className='py-5 flex-row justify-between shadow-inner shadow-black'>
