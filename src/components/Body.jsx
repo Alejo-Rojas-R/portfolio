@@ -9,7 +9,7 @@ export const Body = () => {
     return (
         <>
             <div className='bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto'>
-                <div id='about' className='pt-40 pb-10 px-10 mx-auto w-full max-w-[1040px]'>
+                <div id='about' className='pt-40 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
                     <div className='flex flex-col'>
                         <div className=''>
                             <h3 className='flex text-2xl my-3 font-mono text-red-600 bg-black px-2 relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-white'>Hi, my name is</h3>
@@ -30,14 +30,14 @@ export const Body = () => {
             </div>
 
             <div id='projects' className='bg-black text-red-600'>
-                <div className='w-full max-w-[1040px] py-14 px-10 m-auto'>
+                <div className='w-full max-w-[1040px] py-14 px-5 m-auto'>
                     <h2 className='flex flex-col mx-auto mb-5 text-4xl text-shadow font-semibold'>Projects</h2>
                     <Projects />
                 </div>
             </div>
 
             <div id='experience' className='bg-gray-700 text-red-600 shadow-inner shadow-black'>
-                <div className='flex flex-col w-full max-w-[1040px] py-14 px-10 mx-auto'>
+                <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto'>
                     <h2 className='text-4xl text-shadow font-semibold'>Profesional Experience</h2>
                     <p className='text-white text-shadow mt-4'>
                         <span className='text-2xl'>Full Stack Developer </span><br />
@@ -56,14 +56,14 @@ export const Body = () => {
             </div>
 
             <div id='skills' className='bg-black'>
-                <div className='flex flex-col w-full max-w-[1040px] py-14 px-10 mx-auto'>
+                <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto'>
                     <h2 className='text-4xl text-red-600 text-shadow font-semibold'>Skills</h2>
                     <Skills />
                 </div>
             </div>
 
             <div id='studies' className=' bg-gray-700'>
-                <div className='flex flex-col w-full max-w-[1040px] py-14 px-10 mx-auto'>
+                <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto'>
                     <h2 className='text-4xl text-shadow text-red-600 font-semibold'>Studies & Certificates</h2>
                     <p className='text-white text-shadow mt-4'>
                         <span className='text-2xl'>Systems Engineer</span><br />
@@ -89,7 +89,7 @@ export const Body = () => {
             </div>
 
             <div id='about-me' className='bg-black shadow-inner shadow-black'>
-                <div className='flex flex-row w-full max-w-[1040px] py-14 px-10 mx-auto grid md:grid-cols-4 sm:col-span-3 gap-8'>
+                <div className='flex flex-row w-full max-w-[1040px] py-14 px-5 mx-auto grid md:grid-cols-4 sm:col-span-3 gap-8'>
                     <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center'>
                         <h2 className='text-4xl text-shadow text-red-600 font-semibold'>About</h2>
                         <p className='text-white mt-5 text-shadow'>
