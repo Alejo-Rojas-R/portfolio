@@ -8,7 +8,7 @@ export const Body = () => {
 
     return (
         <>
-            <div className='bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto'>
+            <div className='bg-zinc-700 bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto'>
                 <div id='about' className='pt-16 sm:pt-40 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
                     <div className='flex flex-col'>
                         <div className=''>
