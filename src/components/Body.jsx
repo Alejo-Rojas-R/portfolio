@@ -12,7 +12,7 @@ export const Body = () => {
                 <div id='about' className='pt-16 sm:pt-40 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
                     <div className='flex flex-col'>
                         <div className=''>
-                            <h3 className='flex text-2xl my-3 font-mono text-red-600 bg-zinc-800 px-2 relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-zinc-800 after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-red-600'>Hi, my name is</h3>
+                            <h3 className='flex text-2xl my-3 font-mono text-red-600 bg-black px-2 relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-red-600'>Hi, my name is</h3>
                             <h2 className='text-shadow text-4xl py-2 text-white font-semibold'>Alejandro Rojas</h2>
                             <div className='pt-16 sm:pt-3 max-w-[380px]'>
                                 <p className='text-shadow text-2xl text-white'>
