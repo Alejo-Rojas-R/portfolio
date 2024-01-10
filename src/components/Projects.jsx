@@ -25,7 +25,7 @@ export const Projects = () => {
             github: 'https://github.com/Alejo-Rojas-R/shop-v1-fe',
         },
         {
-            title: 'Portfolio',
+            title: 'Portfolio Page',
             link: 'https://alejo-rojas-r.github.io/portfolio/',
             thumbnail: portfolio,
             description: 'Static site where I showcase my personal projects. Developed with React and Tailwind CSS',
@@ -33,7 +33,7 @@ export const Projects = () => {
             github: 'https://github.com/Alejo-Rojas-R/portfolio',
         },
         {
-            title: 'React E-Shop V2 FE',
+            title: 'React E-Shop V2 Page',
             link: '',
             thumbnail: shopV3,
             description: 'Web site with grocery items and multiple features such as user authentication, search by keyword, review items, etc.',
