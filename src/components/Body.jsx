@@ -44,7 +44,7 @@ export const Body = () => {
                         <span className='opacity-75'>Talent.com </span>
                         <span className='opacity-50'>| 2020 - 2023</span>
                     </p>
-                    <ul className='text-white list-inside text-shadow'>
+                    <ul className='text-white list-inside text-shadow leading-8'>
                         <li className='flex'><Checkmark /><span>Develop and maintain some of the company's PHP backend features with great attention to the code's functionality and readability.</span></li>
                         <li className='flex'><Checkmark /><span>Analyze and extract relevant data for the organization from MySQL and ElasticSearch databases.</span></li>
                         <li className='flex'><Checkmark /><span>Updating and altering application features to enhance performance and following SEO principles by analyzing pages with Lighthouse.</span></li>
@@ -63,7 +63,7 @@ export const Body = () => {
             </div>
 
             <div id='studies' className='bg-zinc-700 shadow-inner shadow-black'>
-                <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
+                <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8 leading-8'>
                     <h2 className='text-4xl text-shadow text-red-600 font-semibold'>Studies & Certificates</h2>
                     <p className='text-white text-shadow'>
                         <span className='text-2xl'>Systems Engineer</span><br />
@@ -90,7 +90,7 @@ export const Body = () => {
 
             <div id='about-me' className='bg-zinc-800'>
                 <div className='flex flex-row w-full max-w-[1040px] py-14 px-5 mx-auto grid md:grid-cols-4 sm:col-span-3 gap-8'>
-                    <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center gap-8'>
+                    <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center gap-8 leading-8'>
                         <h2 className='text-4xl text-shadow text-red-600 font-semibold'>About</h2>
                         <p className='text-white text-shadow'>
                             I have always been passionate about creativity and computing.
