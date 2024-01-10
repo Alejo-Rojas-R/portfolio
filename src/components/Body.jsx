@@ -11,8 +11,8 @@ export const Body = () => {
             <div className='bg-zinc-700 bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto'>
                 <div id='about' className='pt-16 sm:pt-40 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
                     <div className='flex flex-col'>
-                        <div className=''>
-                            <h3 className='flex text-2xl my-3 font-mono text-red-600 bg-black px-2 relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-red-600'>Hi, my name is</h3>
+                        <div className='font-mono'>
+                            <h3 className='flex text-2xl my-3 text-red-600 bg-black px-2 relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-red-600'>Hi, my name is</h3>
                             <h2 className='text-shadow text-4xl py-2 text-white font-semibold'>Alejandro Rojas</h2>
                             <div className='pt-16 sm:pt-3 max-w-[380px]'>
                                 <p className='text-shadow text-2xl text-white'>
@@ -31,14 +31,14 @@ export const Body = () => {
 
             <div id='projects' className='bg-zinc-800 text-red-600'>
                 <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
-                    <h2 className='text-4xl text-shadow font-semibold'>Projects</h2>
+                    <h2 className='text-3xl text-shadow font-semibold'>Projects</h2>
                     <Projects />
                 </div>
             </div>
 
-            <div id='experience' className='bg-zinc-700 text-red-600 shadow-inner shadow-black'>
+            <div id='experience' className='bg-zinc-700 text-red-600 shadow-inner'>
                 <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
-                    <h2 className='text-4xl text-shadow font-semibold '>Profesional Experience</h2>
+                    <h2 className='text-3xl text-shadow font-semibold '>Profesional Experience</h2>
                     <p className='text-white text-shadow'>
                         <span className='text-2xl'>Full Stack Developer </span><br />
                         <span className='opacity-75'>Talent.com </span>
@@ -57,14 +57,14 @@ export const Body = () => {
 
             <div id='skills' className='bg-zinc-800'>
                 <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
-                    <h2 className='text-4xl text-red-600 text-shadow font-semibold'>Skills</h2>
+                    <h2 className='text-3xl text-red-600 text-shadow font-semibold'>Skills</h2>
                     <Skills />
                 </div>
             </div>
 
-            <div id='studies' className='bg-zinc-700 shadow-inner shadow-black'>
+            <div id='studies' className='bg-zinc-700 shadow-inner'>
                 <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8 leading-8'>
-                    <h2 className='text-4xl text-shadow text-red-600 font-semibold'>Studies & Certificates</h2>
+                    <h2 className='text-3xl text-shadow text-red-600 font-semibold'>Studies & Certificates</h2>
                     <p className='text-white text-shadow'>
                         <span className='text-2xl'>Systems Engineer</span><br />
                         <span className='opacity-75'>Metropolitan Technological Institute </span>
@@ -91,7 +91,7 @@ export const Body = () => {
             <div id='about-me' className='bg-zinc-800'>
                 <div className='flex flex-row w-full max-w-[1040px] py-14 px-5 mx-auto grid md:grid-cols-4 sm:col-span-3 gap-8'>
                     <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center gap-8 leading-8'>
-                        <h2 className='text-4xl text-shadow text-red-600 font-semibold'>About</h2>
+                        <h2 className='text-3xl text-shadow text-red-600 font-semibold'>About</h2>
                         <p className='text-white text-shadow'>
                             I have always been passionate about creativity and computing.
                             When I was little I learned to draw before I learned to speak and I have always alternated between pencil and mouse.
