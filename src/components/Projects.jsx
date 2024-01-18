@@ -10,7 +10,7 @@ export const Projects = () => {
     var projects = [
         {
             title: 'Matching Game',
-            link: '',
+            link: 'https://alejo-rojas-r.github.io/react-frogs-game/',
             thumbnail: game,
             description: 'Small minigame where the goal is to match the items by pressing and dragging the mouse over those that match.',
             badges: ['React'],
