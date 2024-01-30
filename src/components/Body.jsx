@@ -39,12 +39,12 @@ export const Body = () => {
             <div id='experience' className='bg-zinc-700 text-red-600 shadow-inner'>
                 <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
                     <h2 className='text-3xl text-shadow font-semibold '>Profesional Experience</h2>
-                    <p className='text-white text-shadow'>
-                        <span className='text-2xl'>Full Stack Developer </span><br />
+                    <p className='text-white text-shadow text-lg'>
+                        <span className=''>Full Stack Developer </span><br />
                         <span className='opacity-75'>Talent.com </span>
                         <span className='opacity-50'>| 2020 - 2023</span>
                     </p>
-                    <ul className='text-white list-inside text-shadow leading-8'>
+                    <ul className='text-white list-inside text-shadow leading-8 text-lg'>
                         <li className='flex'><Checkmark /><span>Develop and maintain some of the company's PHP backend features with great attention to the code's functionality and readability.</span></li>
                         <li className='flex'><Checkmark /><span>Analyze and extract relevant data for the organization from MySQL and ElasticSearch databases.</span></li>
                         <li className='flex'><Checkmark /><span>Updating and altering application features to enhance performance and following SEO principles by analyzing pages with Lighthouse.</span></li>
@@ -64,24 +64,24 @@ export const Body = () => {
 
             <div id='studies' className='bg-zinc-700 shadow-inner'>
                 <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8 leading-8'>
-                    <h2 className='text-3xl text-shadow text-red-600 font-semibold'>Studies & Certificates</h2>
-                    <p className='text-white text-shadow'>
-                        <span className='text-2xl'>Systems Engineer</span><br />
-                        <span className='opacity-75'>Metropolitan Technological Institute </span>
+                    <h2 className='text-3xl text-shadow text-red-600 font-semibold'>Education & Certificates</h2>
+                    <p className='text-white text-shadow text-lg'>
+                        <span className=''>Bachelor of Science in Software Engineering</span><br />
+                        <span className='opacity-75'>Instituto Tecnológico Metropolitano</span>
                         <span className='opacity-50'>| 2014 - 2024</span>
                     </p>
-                    <p className='text-white text-shadow'>
-                        <span className='text-2xl'>Code and Programming Bootcamp - Backend</span><br />
+                    <p className='text-white text-shadow text-lg'>
+                        <span className=''>Code and Programming Bootcamp - Backend</span><br />
                         <span className='opacity-75'>MAKAIA </span>
                         <span className='opacity-50'>| 2023 - 2024</span>
                     </p>
-                    <p className='text-white text-shadow'>
-                        <span className='text-2xl'>Scrum Foundation Professional Certificate</span><br />
+                    <p className='text-white text-shadow text-lg'>
+                        <span className=''>Scrum Foundation Professional Certificate</span><br />
                         <span className='opacity-75'>CertiProf International </span>
                         <span className='opacity-50'>| 2023 </span>
                     </p>
-                    <p className='text-white text-shadow'>
-                        <span className='text-2xl'>C2 English Certificate</span><br />
+                    <p className='text-white text-shadow text-lg'>
+                        <span className=''>C2 English Certificate</span><br />
                         <span className='opacity-75'>EF SET </span>
                         <span className='opacity-50'>| 2023 </span>
                     </p>
@@ -92,35 +92,26 @@ export const Body = () => {
                 <div className='flex flex-row w-full max-w-[1040px] py-14 px-5 mx-auto grid md:grid-cols-4 sm:col-span-3 gap-8'>
                     <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center gap-8 leading-8'>
                         <h2 className='text-3xl text-shadow text-red-600 font-semibold'>About</h2>
-                        <p className='text-white text-shadow'>
-                            I have always been passionate about creativity and computing.
-                            When I was little I learned to draw before I learned to speak and I have always alternated between pencil and mouse.
+                        <p className='text-white text-shadow text-lg'>
+                            My approach to work is built on principles of creativity, honesty, and a determined effort to achieve set goals.
+                            I am particularly interested in collaborative opportunities that involve working together on coding projects to create something innovative and exceptional.
                         </p>
-                        <p className='text-white text-shadow'>
-                            Nowadays I am not only passionate about programming languages, but also speaking languages.
-                            I'm C2 in English and I'm learning German. I'm also wrapping up my System Engineer title at the university.
-                        </p>
-                        <p className='text-white text-shadow'>
-                            I'm driven to be creative, honest and passionate about meeting goals and supporting others to do so.
-                            If you'd like to collaborate let's connect and code something awesome together!
+                        <p className='text-white text-shadow text-lg'>
+                            I am a driven and creative individual with a strong passion for art, technology, travel and languages.
+                            Exploring new cultures and landscapes not only fuels my creativity but also broadens my perspective on the world.
+                            My love for languages goes beyond coding languages—I am proficient in English at a C2 level and actively pursuing proficiency in German.
                         </p>
                     </div>
                     <div className='w-100 h-100 m-auto col-span-1'>
                         <img src={Pfp} className='rounded-full object-cover shadow-lg shadow-black' alt='' />
+                        <div className='text-5xl flex justify-center gap-8 pt-8 text-red-600'>
+                            <a className='transition ease-in-out hover:scale-110' href='https://github.com/Alejo-Rojas-R'><AiFillGithub /></a>
+                            <a className='transition ease-in-out hover:scale-110' href='https://www.linkedin.com/in/alejandro-rojas-rodriguez/'> <AiFillLinkedin /></a>
+                            <a className='transition ease-in-out hover:scale-110' href='mailto:alejandrorojas1152@gmail.com'> <AiFillMail /></a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            {/*
-            <div id='contact' className='bg-black text-red-600 '>
-                <div className='flex flex-col w-full max-w-[1040px] py-10 px-10 mx-auto'>
-                    <h2 className='text-4xl text-shadow font-semibold'>Contact</h2>
-                    <p className='text-white mt-2 text-shadow'>
-                        ...
-                    </p>
-                </div>
-            </div>
-            */}
         </>
     )
 }

@@ -24,12 +24,11 @@ export const NavBar = () => {
                 <h1 className='text-xl font-burtons text-white'>🜇</h1>
                 <ul className='sm:visible invisible flex items-center gap-6'>
                     <li className='text-white font-semibold hover:scale-110'><a href='#about-me'>About</a></li>
-                    <li className='text-white font-semibold hover:scale-110'><a href='#projects'>Projects</a></li>
+                    <li className='text-white font-semibold hover:scale-110'><a href='#studies'>Education</a></li>
                     <li className='text-white font-semibold hover:scale-110'><a href='#experience'>Experience</a></li>
+                    <li className='text-white font-semibold hover:scale-110'><a href='#projects'>Projects</a></li>
                     <li className='text-white font-semibold hover:scale-110'><a href='#skills'>Skills</a></li>
-                    <li className='text-white font-semibold hover:scale-110'><a href='#studies'>Studies</a></li>
                     {/*<li className='text-white font-semibold hover:scale-110'><a href='#contact'>Contact</a></li>*/}
-                    <li className='text-white font-semibold hover:scale-110'><a href='https://github.com/Alejo-Rojas-R' target='_blank'>Github</a></li>
                     <li className='text-white transition ease-in-out hover:scale-110'>
                         <a className='bg-gradient-to-r from-red-500 to-red-700 text-white px-4 py-2 rounded-md'
                             href='https://drive.google.com/file/d/1lMDqA3gHhUqUO3VMCxNDtgsQVmkSMMJz/view?usp=sharing'

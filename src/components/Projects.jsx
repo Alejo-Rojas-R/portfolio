@@ -62,14 +62,7 @@ export const Projects = () => {
         <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 w-100 mx-auto max-w-[1040px]'>
             {projects.toReversed().map((project, index) => (
                 (project.title != '') &&
-                <ProjectCard key={index}
-                    link={project.link}
-                    image={project.thumbnail}
-                    title={project.title}
-                    description={project.description}
-                    badges={project.badges}
-                    github={project.github}
-                />
+                <ProjectCard key={index} {...project} />
             ))}
         </div>
     )
