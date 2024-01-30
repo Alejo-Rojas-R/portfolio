@@ -8,12 +8,12 @@ export const ProjectCard = ({ link, thumbnail, title, description, badges, githu
                 <img className='border-4 border-white rounded-lg' src={thumbnail} alt='' />
                 <div className='transition ease-in-out flex flex-col text-8xl gap-6 opacity-0 group-hover:opacity-100 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                     {link &&
-                        <a className='transition ease-in-out m-auto hover:scale-110 text-red-600 bg-zinc-800 rounded-full' href={link} target='_blank'>
+                        <a className='transition ease-in-out m-auto hover:scale-110 text-blue-500 bg-zinc-800 rounded-full' href={link} target='_blank'>
                             <AiFillPlayCircle />
                         </a>
                     }
                     {github &&
-                        <a className='transition ease-in-out m-auto hover:scale-110 text-red-600 bg-zinc-800 rounded-full' href={github} target='_blank'>
+                        <a className='transition ease-in-out m-auto hover:scale-110 text-blue-500 bg-zinc-800 rounded-full' href={github} target='_blank'>
                             <AiFillGithub />
                         </a>
                     }
