@@ -1,14 +1,15 @@
-import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { Projects } from './Projects';
 import { Skills } from './Skills';
 import { Checkmark } from './Checkmark';
 import Pfp from '../../public/profile-pic.webp';
+import { SectionWrapper } from './SectionWrapper';
+import { SocialIcons } from './SocialIcons';
 
 export const Body = () => {
 
   return (
     <>
-      <div className='bg-zinc-700 bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto bg-blend-hard-light'>
+      <div className='bg-zinc-600 bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto bg-blend-hard-light'>
         <div id='about' className='pt-28 sm:pt-32 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
           <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
             <div className='col-span-1 md:col-span-2 lg:col-span-3'>
@@ -26,24 +27,16 @@ export const Body = () => {
               <img src={Pfp} className='rounded-full object-cover shadow-lg shadow-black' alt='' />
             </div>
           </div>
-          <div className='text-5xl flex justify-center gap-8 text-blue-500 mx-auto mt-8 lg:mt-5 2xl:mt-0'>
-            <a className='transition ease-in-out hover:scale-110' href='https://github.com/Alejo-Rojas-R'><AiFillGithub /></a>
-            <a className='transition ease-in-out hover:scale-110' href='https://www.linkedin.com/in/alejandro-rojas-rodriguez/'> <AiFillLinkedin /></a>
-            <a className='transition ease-in-out hover:scale-110' href='mailto:alejandrorojas1152@gmail.com'> <AiFillMail /></a>
-          </div>
+          <SocialIcons />
         </div>
       </div>
 
-      <div id='projects' className='bg-zinc-800 text-blue-500'>
-        <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
-          <h2 className='text-3xl text-shadow font-semibold'>Projects</h2>
-          <Projects />
-        </div>
-      </div>
+      <SectionWrapper title={'Projects'} backgroundShade={'800'}>
+        <Projects />
+      </SectionWrapper>
 
-      <div id='experience' className='bg-zinc-700 text-blue-500 shadow-inner'>
-        <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
-          <h2 className='text-3xl text-shadow font-semibold '>Profesional Experience</h2>
+      <SectionWrapper title={'Profesional Experience'} backgroundShade={'700'}>
+        <>
           <p className='text-white text-shadow text-lg'>
             <span className=''>Full Stack Developer </span><br />
             <span className='opacity-75'>Talent.com </span>
@@ -57,19 +50,15 @@ export const Body = () => {
             <li className='flex'><Checkmark /><span>Collaborate with the design team to ensure that the interface integrates correctly.</span></li>
             <li className='flex'><Checkmark /><span>Explain, share and demo the work and ideas to the Product Owners and other peers.</span></li>
           </ul>
-        </div>
-      </div>
+        </>
+      </SectionWrapper>
 
-      <div id='skills' className='bg-zinc-800'>
-        <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8'>
-          <h2 className='text-3xl text-blue-500 text-shadow font-semibold'>Skills</h2>
-          <Skills />
-        </div>
-      </div>
+      <SectionWrapper title={'Tech Skills'} backgroundShade={'800'}>
+        <Skills />
+      </SectionWrapper>
 
-      <div id='studies' className='bg-zinc-700 shadow-inner'>
-        <div className='flex flex-col w-full max-w-[1040px] py-14 px-5 mx-auto gap-8 leading-8'>
-          <h2 className='text-3xl text-shadow text-blue-500 font-semibold'>Education & Certificates</h2>
+      <SectionWrapper title={'Education & Certificates'} backgroundShade={'700'}>
+        <>
           <p className='text-white text-shadow text-lg'>
             <span className=''>Bachelor of Science in Software Engineering</span><br />
             <span className='opacity-75'>Instituto Tecnológico Metropolitano</span>
@@ -90,13 +79,12 @@ export const Body = () => {
             <span className='opacity-75'>EF SET </span>
             <span className='opacity-50'>| 2023 </span>
           </p>
-        </div>
-      </div>
+        </>
+      </SectionWrapper>
 
-      <div id='about-me' className='bg-zinc-800'>
-        <div className='flex flex-row w-full max-w-[1040px] py-14 px-5 mx-auto grid md:grid-cols-4 sm:col-span-3 gap-8'>
+      <SectionWrapper title={'About'} backgroundShade={'800'}>
+        <div className='flex flex-row grid md:grid-cols-4 sm:col-span-3 gap-8'>
           <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center gap-8 leading-8'>
-            <h2 className='text-3xl text-shadow text-blue-500 font-semibold'>About</h2>
             <p className='text-white text-shadow text-lg'>
               My approach to work is built on principles of creativity, honesty, and a determined effort to achieve set goals.
               I am particularly interested in collaborative opportunities that involve working together on coding projects to create something innovative and exceptional.
@@ -109,14 +97,10 @@ export const Body = () => {
           </div>
           <div className='w-100 h-100 m-auto col-span-1'>
             <img src={Pfp} className='rounded-full object-cover shadow-lg shadow-black' alt='' />
-            <div className='text-5xl flex justify-center gap-8 pt-8 text-blue-500'>
-              <a className='transition ease-in-out hover:scale-110' href='https://github.com/Alejo-Rojas-R'><AiFillGithub /></a>
-              <a className='transition ease-in-out hover:scale-110' href='https://www.linkedin.com/in/alejandro-rojas-rodriguez/'> <AiFillLinkedin /></a>
-              <a className='transition ease-in-out hover:scale-110' href='mailto:alejandrorojas1152@gmail.com'> <AiFillMail /></a>
-            </div>
+            <SocialIcons />
           </div>
         </div>
-      </div>
+      </SectionWrapper>
     </>
   )
 }

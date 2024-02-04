@@ -6,7 +6,7 @@ export const Skills = () => {
     { icon: 'css3-plain', name: 'CSS' },
     {/*icon:'dot-net-plain', name:'.net'*/ },
     {/* icon: 'dotnetcore-plain', name: '.NET Core'*/ },
-    {/* icon: 'eslint-original', name: 'esLint' */ },
+    { icon: 'eslint-original', name: 'esLint' },
     {/* icon: 'figma-plain', name: 'Figma' */ },
     { icon: 'git-plain', name: 'Git' },
     { icon: 'github-original', name: 'GitHub' },
