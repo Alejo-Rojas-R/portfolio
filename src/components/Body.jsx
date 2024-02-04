@@ -62,7 +62,7 @@ export const Body = () => {
           <p className='text-white text-shadow text-lg'>
             <span className=''>Bachelor of Science in Software Engineering</span><br />
             <span className='opacity-75'>Instituto Tecnológico Metropolitano</span>
-            <span className='opacity-50'>| 2014 - 2024</span>
+            <span className='opacity-50'>| 2022 - 2024 (in progress)</span>
           </p>
           <p className='text-white text-shadow text-lg'>
             <span className=''>Code and Programming Bootcamp - Backend</span><br />
