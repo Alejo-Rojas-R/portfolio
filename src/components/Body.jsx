@@ -10,7 +10,7 @@ export const Body = () => {
   return (
     <>
       <div className='bg-zinc-600 bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto bg-blend-hard-light'>
-        <div id='about' className='pt-28 sm:pt-32 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
+        <div className='pt-28 sm:pt-32 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
           <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
             <div className='col-span-1 md:col-span-2 lg:col-span-3'>
               <div className='font-mono'>
@@ -35,7 +35,7 @@ export const Body = () => {
         <Projects />
       </SectionWrapper>
 
-      <SectionWrapper title={'Profesional Experience'} backgroundShade={'700'}>
+      <SectionWrapper title={'Work Experience'} backgroundShade={'700'}>
         <>
           <p className='text-white text-shadow text-lg'>
             <span className=''>Full Stack Developer </span><br />
@@ -57,7 +57,7 @@ export const Body = () => {
         <Skills />
       </SectionWrapper>
 
-      <SectionWrapper title={'Education & Certificates'} backgroundShade={'700'}>
+      <SectionWrapper title={'Education and Certificates'} backgroundShade={'700'}>
         <>
           <p className='text-white text-shadow text-lg'>
             <span className=''>Bachelor of Science in Software Engineering</span><br />
