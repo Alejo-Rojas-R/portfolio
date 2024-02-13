@@ -10,7 +10,7 @@ export const Body = () => {
   return (
     <>
       <div className='bg-zinc-600 bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto bg-blend-hard-light'>
-        <div className='pt-28 sm:pt-32 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
+        <div className='pt-16 sm:pt-32 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
           <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
             <div className='col-span-1 md:col-span-2 lg:col-span-3'>
               <div className='font-mono'>
@@ -31,11 +31,11 @@ export const Body = () => {
         </div>
       </div>
 
-      <SectionWrapper title={'Projects'} backgroundShade={'800'}>
+      <SectionWrapper title={'Projects'} backgroundShade={'700'}>
         <Projects />
       </SectionWrapper>
 
-      <SectionWrapper title={'Work Experience'} backgroundShade={'700'}>
+      <SectionWrapper title={'Work Experience'} backgroundShade={'600'}>
         <>
           <p className='text-white text-shadow text-lg'>
             <span className=''>Full Stack Developer </span><br />
@@ -53,11 +53,11 @@ export const Body = () => {
         </>
       </SectionWrapper>
 
-      <SectionWrapper title={'Tech Skills'} backgroundShade={'800'}>
+      <SectionWrapper title={'Tech Skills'} backgroundShade={'700'}>
         <Skills />
       </SectionWrapper>
 
-      <SectionWrapper title={'Education and Certificates'} backgroundShade={'700'}>
+      <SectionWrapper title={'Education and Certificates'} backgroundShade={'600'}>
         <>
           <p className='text-white text-shadow text-lg'>
             <span className=''>Bachelor of Science in Software Engineering</span><br />
@@ -82,17 +82,17 @@ export const Body = () => {
         </>
       </SectionWrapper>
 
-      <SectionWrapper title={'About'} backgroundShade={'800'}>
+      <SectionWrapper title={'About'} backgroundShade={'700'}>
         <div className='flex flex-row grid md:grid-cols-4 sm:col-span-3 gap-8'>
           <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center gap-8 leading-8'>
             <p className='text-white text-shadow text-lg'>
-              My approach to work is built on principles of creativity, honesty, and a determined effort to achieve set goals.
-              I am particularly interested in collaborative opportunities that involve working together on coding projects to create something innovative and exceptional.
-            </p>
-            <p className='text-white text-shadow text-lg'>
-              I am a driven and creative individual with a strong passion for art, technology, travel and languages.
+              I'm a driven and creative individual with a strong passion for art, music, travel and languages.
               Exploring new cultures and landscapes not only fuels my creativity but also broadens my perspective on the world.
               My love for languages goes beyond coding languages—I am proficient in English at a C2 level and actively pursuing proficiency in German.
+            </p>
+            <p className='text-white text-shadow text-lg'>
+              My approach to work is built on principles of creativity, honesty, and a determined effort to achieve set goals.
+              I am particularly interested in collaborative opportunities that involve working together on coding projects to create something innovative and exceptional.
             </p>
           </div>
           <div className='w-100 h-100 m-auto col-span-1'>

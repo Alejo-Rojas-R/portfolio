@@ -3,5 +3,23 @@
 @tailwind utilities;
 
 .text-shadow, .text-shadow * {
-    text-shadow: 3px 3px 3px rgb(0, 0, 0, 50%);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 35%);
+}
+
+.project-card:not(:last-child) > div {
+  border-bottom: 1px solid white;
+}
+
+@media (min-width: 768px) {
+  .project-card:nth-child(even) > img {
+    order: 2;
+  }
+  
+  .project-card:not(:last-child) > div {
+    border-bottom: unset;
+  }
+  
+  .project-card:nth-child(even) > div {
+    order: 1;
+  }
 }

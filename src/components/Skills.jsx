@@ -33,7 +33,7 @@ export const Skills = () => {
       {
         skills.map((skill, index) => (
           skill.name &&
-          <div key={index} className='flex flex-col justify-center items-center w-24 h-24 bg-white rounded transition ease-in-out hover:scale-105 shadow-lg shadow-black'>
+          <div key={index} className='flex flex-col justify-center items-center w-24 h-24 bg-white rounded transition ease-in-out hover:scale-105 shadow-md shadow-black'>
             <i className={`devicon-${skill.icon} colored text-4xl`} />
             <div className='mt-2 text-black font-bold'>{skill.name}</div>
           </div>
