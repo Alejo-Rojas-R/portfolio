@@ -43,12 +43,10 @@ export const Body = () => {
             <span className='opacity-50'>| 2020 - 2023</span>
           </p>
           <ul className='text-white list-inside text-shadow leading-8 text-lg'>
-            <li className='flex'><Checkmark /><span>Develop and maintain some of the company's PHP backend features with great attention to the code's functionality and readability.</span></li>
-            <li className='flex'><Checkmark /><span>Analyze and extract relevant data for the organization from MySQL and ElasticSearch databases.</span></li>
-            <li className='flex'><Checkmark /><span>Updating and altering application features to enhance performance and following SEO principles by analyzing pages with Lighthouse.</span></li>
-            <li className='flex'><Checkmark /><span>Develop interfaces using web technologies such as HTML, CSS, and JavaScript and ensure its responsivity.</span></li>
-            <li className='flex'><Checkmark /><span>Collaborate with the design team to ensure that the interface integrates correctly.</span></li>
-            <li className='flex'><Checkmark /><span>Explain, share and demo the work and ideas to the Product Owners and other peers.</span></li>
+            <li className='flex'><Checkmark /><span>Develop new features and maintain existing ones of the company's Backend, ensuring functionality, readability of the code, working hand in hand with the design team to integrate the interface correctly.</span></li>
+            <li className='flex'><Checkmark /><span>Participate in development at the Back and Front level for projects in production, using web technologies such as Javascript, PHP, HTML and CSS, following the team and client specifications, and providing responsive interfaces.</span></li>
+            <li className='flex'><Checkmark /><span>Evaluate, update and modify some functionalities of the application by optimizing its performance and efficiency following SEO practices with the support of reports in Lighthouse and Screaming Frog.</span></li>
+            <li className='flex'><Checkmark /><span>Use MySQL databases to perform analysis and extraction of relevant information for the organization.</span></li>
           </ul>
         </>
       </SectionWrapper>
@@ -86,13 +84,13 @@ export const Body = () => {
         <div className='flex flex-row grid md:grid-cols-4 sm:col-span-3 gap-8'>
           <div className='flex flex-col md:col-span-3 sm:col-span-2 align-center gap-8 leading-8'>
             <p className='text-white text-shadow text-lg'>
-              I'm a driven and creative individual with a strong passion for art, music, travel and languages.
-              Exploring new cultures and landscapes not only fuels my creativity but also broadens my perspective on the world.
-              My love for languages goes beyond coding languages—I am proficient in English at a C2 level and actively pursuing proficiency in German.
+              I am a bilingual Software Developer oriented to web platforms, with 3 years of work experience in PHP, JavaScript, HTML, CSS, MySQL. Currently, apart from studying my last semesters of Systems Engineering, I dedicate my free time to studying Java (Spring), React.js, Node.js, RESTful APIs, design patterns, unit tests, Bootstrap and Tailwind.
             </p>
             <p className='text-white text-shadow text-lg'>
-              My approach to work is built on principles of creativity, honesty, and a determined effort to achieve set goals.
-              I am particularly interested in collaborative opportunities that involve working together on coding projects to create something innovative and exceptional.
+              I have had the opportunity to participate in a variety of projects, implementing the agile methodology and strengthening my knowledge, collaborative work skills, problem solving and critical thinking.
+            </p>
+            <p className='text-white text-shadow text-lg'>
+              Creative, passionate about generating innovative technological solutions, guaranteeing the implementation of functionalities adjusted to the needs of each project. I am currently interested in job opportunities that allow me to continue applying my knowledge at the Full-Stack development level within different work teams, adding value to web creation and optimization.
             </p>
           </div>
           <div className='w-100 h-100 m-auto col-span-1'>

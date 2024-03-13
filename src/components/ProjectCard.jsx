@@ -17,7 +17,7 @@ export const ProjectCard = ({ link, thumbnail, title, description, badges, githu
         </div>
         <div className='gap-2 flex justify-center'>
           {link && <Button title={'Live Demo'} link={link} icon={<IoOpenOutline />} />}
-          {github && <Button title={'Code'} link={github} icon={<AiFillGithub />} />}
+          {github && <Button title={'Documentation'} link={github} icon={<AiFillGithub />} />}
         </div>
       </div>
     </div>

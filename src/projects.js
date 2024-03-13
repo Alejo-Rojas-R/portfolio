@@ -3,6 +3,7 @@ import shopV1 from '/public/e-shop.webp';
 import shopV3 from '/public/shop-v3.webp';
 import shopV3api from '/public/shop-v3-api.webp';
 import portfolio from '/public/portfolio.webp';
+import evaluationProfiling from '/public/evaluation-and-profiling.webp';
 
 export const projects = [
   {
@@ -10,7 +11,7 @@ export const projects = [
     link: 'https://alejo-rojas-r.github.io/react-frogs-game/',
     thumbnail: game,
     description: 'Small minigame where the goal is to match the items by pressing and dragging the mouse over those that match.',
-    badges: ['React'],
+    badges: ['React.js'],
     github: 'https://github.com/Alejo-Rojas-R/react-frogs-game',
   },
   {
@@ -18,33 +19,26 @@ export const projects = [
     link: 'https://alejo-rojas-r.github.io/portfolio/',
     thumbnail: portfolio,
     description: 'Portfolio website where I showcase some of my personal projects. Developed with React and Tailwind CSS',
-    badges: ['React', 'Tailwind CSS'],
+    badges: ['React.js', 'Tailwind CSS'],
     github: 'https://github.com/Alejo-Rojas-R/portfolio',
   },
   {
-    title: 'E-commerce V1',
+    title: 'E-commerce site',
     link: 'https://e-shop-arojas.netlify.app/',
-    thumbnail: shopV1,
-    description: 'This website serves as an online shop that allows users to browse through multiple categories and search products by keyword. The data is being fetched from third party API.',
-    badges: ['React', 'Bootstrap', 'API'],
-    github: 'https://github.com/Alejo-Rojas-R/shop-v1-fe',
-  },
-  {
-    title: 'E-commerce V2',
-    link: '',
     thumbnail: shopV3,
     description: 'This is a single-page application developed to serve as the front end of an online grocery store. This app is connected to a backend that I developed using Spring MVC. Users are able to use multiple actions such as authentication, search by keyword, review items, etc.',
-    badges: ['React', 'Bootstrap', 'API', 'Redux Toolkit'],
+    badges: ['React', 'Bootstrap', 'Redux Toolkit', 'Spring Framework', 'API', 'MySQL'],
     github: 'https://github.com/Alejo-Rojas-R/shop-v3-fe',
   },
   {
-    title: 'E-commerce V2 API',
+    title: 'Bootcamp Candidates Managment',
     link: '',
-    thumbnail: shopV3api,
-    description: 'This RESTful API is developed to serve as the backend of an online shop. Developed with Spring Framework and features JWT authentication.',
-    badges: ['Java', 'Spring Boot', 'Spring Security', 'API', 'MySQL', 'Postman'],
-    github: 'https://github.com/Alejo-Rojas-R/shop-v3-api',
-  },
+    thumbnail: evaluationProfiling,
+    description: 'This application was developed to systematize the process of how the HR managers categorize the candidates that enroll in Betek\'s academic courses.',
+    badges: ['React.js', 'Tailwind CSS', 'Spring Framework', 'MySQL'],
+    github: 'https://github.com/Alejo-Rojas-R/evaluation_and_profiling',
+  }
+  ,
   {
     title: '',
     link: '',
