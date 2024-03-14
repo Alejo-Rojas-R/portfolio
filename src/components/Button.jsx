@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Button = ({ title, link, icon }) => {
   return (
     <div className='text-white transition ease-in-out hover:scale-105'>
