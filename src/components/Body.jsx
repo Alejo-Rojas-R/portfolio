@@ -6,11 +6,11 @@ import { SectionWrapper } from './SectionWrapper';
 import { SocialIcons } from './SocialIcons';
 import { ExperienceCard } from './ExperienceCard';
 
-import Makaia from '../../public/makaia.png';
-import Efset from '../../public/efset.png';
-import Itm from '../../public/itm.png';
+import Makaia from '../../public/makaia.webp';
+import Efset from '../../public/efset.webp';
+import Itm from '../../public/itm.webp';
 import Talent from '../../public/talent.webp';
-import CertiProf from '../../public/certiprof.png';
+import CertiProf from '../../public/certiprof.webp';
 
 export const Body = () => {
 
@@ -81,7 +81,7 @@ export const Body = () => {
       </SectionWrapper>
 
       <SectionWrapper title={'Education and Certificates'} backgroundShade={'600'}>
-        <div className='grid md:grid-cols-2 gap-5'>
+        <div className='grid md:grid-cols-2 gap-8'>
           <ExperienceCard title={'Bachelor of Science in Software Engineering'} company={'Instituto Tecnológico Metropolitano'} date={'August 2022 - December 2024'} url={'https://www.itm.edu.co/'} logo={Itm} />
           <ExperienceCard title={'Code and Programming Bootcamp - Backend'} company={'MAKAIA'} date={'August 2023 - February 2024'} url={'https://makaia.org/'} logo={Makaia} />
           <ExperienceCard title={'Scrum Foundation Professional Certificate'} company={'CertiProf International'} date={'February 2023'} url={''} logo={CertiProf} />
