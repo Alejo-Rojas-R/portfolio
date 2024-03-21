@@ -25,7 +25,7 @@ export const ProjectCard = ({ link, thumbnail, title, description, badges, githu
       <img className='rounded-xl shadow-md' src={thumbnail} alt='' />
       <div className='leading-normal text-center flex flex-col justify-center gap-8 pb-8'>
         <h5 className='text-3xl text-shadow text-white'>{title}</h5>
-        <p className='text-lg text-white text-shadow text-justify'>{description}</p>
+        <p className='text-lg text-white text-shadow text-justify leading-8'>{description}</p>
         <div className='flex flex-wrap gap-2 justify-center'>
           {badges.map((badge, index) => (
             <div key={index} className='text-white font-semibold px-2 py-0.5 bg-zinc-600 whitespace-nowrap shadow-md rounded-md'>

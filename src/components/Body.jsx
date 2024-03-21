@@ -5,6 +5,7 @@ import Pfp from '../../public/profile-pic.webp';
 import { SectionWrapper } from './SectionWrapper';
 import { SocialIcons } from './SocialIcons';
 import { ExperienceCard } from './ExperienceCard';
+import { EducationCard } from './EducationCard';
 
 import Makaia from '../../public/makaia.webp';
 import Efset from '../../public/efset.webp';
@@ -16,7 +17,7 @@ export const Body = () => {
 
   return (
     <>
-      <div className='bg-zinc-600 bg-[url(/banner.webp)] bg-cover bg-center w-full max-w-[1920px] m-auto bg-blend-hard-light'>
+      <div className='bg-gradient-to-r from-blue-800 to-blue-950 w-full m-auto'>
         <div className='pt-16 sm:pt-32 pb-10 px-5 mx-auto w-full max-w-[1040px]'>
           <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
             <div className='col-span-1 md:col-span-2 lg:col-span-3'>
@@ -39,7 +40,7 @@ export const Body = () => {
       </div>
 
       <SectionWrapper title={'About'} backgroundShade={'600'}>
-        <div className='flex flex-col align-center gap-8 leading-8 text-lg text-white text-shadow text-justify'>
+        <div className='flex flex-col align-center gap-8 leading-8 text-lg text-white text-shadow text-justify leading-8'>
           <p>
             I am a bilingual Software Developer oriented to web platforms, with 3 years of work experience in PHP, JavaScript, HTML, CSS, MySQL.
             I've had the opportunity to participate in a variety of projects, implementing agile methodologies and strengthening my soft skills in continuos learning, collaborative work, problem solving and critical thinking.
@@ -56,10 +57,10 @@ export const Body = () => {
         <Projects />
       </SectionWrapper>
 
-      <SectionWrapper title={'Work Experience'} backgroundShade={'600'}>
+      <SectionWrapper title={'Commercial Experience'} backgroundShade={'600'}>
         <ExperienceCard title={'Full-Stack Developer'} company={'Talent.com'} date={'2020 - 2023'} url={'https://talent.com/'} logo={Talent}
           description={
-            <ul className='text-white list-inside text-shadow leading-8 text-lg text-justify'>
+            <ul className='text-white list-inside text-shadow leading-8 text-lg text-justify md:text-left'>
               <li className='flex'><Checkmark /><span>Participate in Full-stack developments for projects in production, using web technologies such as Javascript, PHP, HTML, and CSS, providing responsive interfaces, maintaining good code practices and following the team and client specifications.</span></li>
               <li className='flex'><Checkmark /><span>Evaluate, update, and modify functionalities of the applications by optimizing their performance and efficiency, following good SEO practices supported by reports in Lighthouse and Screaming Frog.</span></li>
               <li className='flex'><Checkmark /><span>Analyze databases in MySQL and Elasticsearch to develop extraction and modification actions in the applications.</span></li>
@@ -82,10 +83,10 @@ export const Body = () => {
 
       <SectionWrapper title={'Education and Certificates'} backgroundShade={'600'}>
         <div className='grid md:grid-cols-2 gap-8'>
-          <ExperienceCard title={'Bachelor of Science in Software Engineering'} company={'Instituto Tecnológico Metropolitano'} date={'August 2022 - December 2024'} url={'https://www.itm.edu.co/'} logo={Itm} />
-          <ExperienceCard title={'Code and Programming Bootcamp - Backend'} company={'MAKAIA'} date={'August 2023 - February 2024'} url={'https://makaia.org/'} logo={Makaia} />
-          <ExperienceCard title={'Scrum Foundation Professional Certificate'} company={'CertiProf International'} date={'February 2023'} url={''} logo={CertiProf} />
-          <ExperienceCard title={'C2 English Certificate'} company={'EF SET'} date={'February 2023'} url={''} logo={Efset} />
+          <EducationCard title={'Bachelor of Science in Software Engineering'} company={'Instituto Tecnológico Metropolitano'} date={'August 2022 - December 2024'} url={'https://www.itm.edu.co/'} logo={Itm} />
+          <EducationCard title={'Code and Programming Bootcamp - Backend'} company={'MAKAIA'} date={'August 2023 - February 2024'} url={'https://makaia.org/'} logo={Makaia} />
+          <EducationCard title={'Scrum Foundation Professional Certificate'} company={'CertiProf International'} date={'February 2023'} url={''} logo={CertiProf} />
+          <EducationCard title={'C2 English Certificate'} company={'EF SET'} date={'February 2023'} url={''} logo={Efset} />
         </div>
       </SectionWrapper>
     </>
