@@ -26,7 +26,7 @@ export const Skills = () => {
   const categories = [...new Set(skills.map(item => item.category))].reverse();
 
   return (
-    <div className='flex w-full max-w-[1040px] mt-5 gap-8'>
+    <div className='flex w-full max-w-[1040px] mt-5 md:gap-8'>
       {categories.map((category, index) => (
         <SkillsWrapper key={index} title={category}>
           {
